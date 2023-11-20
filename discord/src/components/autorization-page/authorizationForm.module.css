@@ -1,0 +1,88 @@
+.page{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapperForm{
+border: 1px solid black;
+background-color: rgb(51, 50, 50);
+width: 30vw;
+height: 45vh;
+display: flex;
+justify-content: center;
+align-content: center;
+color: rgb(199, 191, 191);
+
+}
+
+
+.container_wrapper{
+width: 15vw;
+height: 30vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+
+.red_star{
+    color: red;
+}
+
+.titleForm{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.textForm{
+font-size: 0.7em;
+font-weight: 700;
+
+}
+
+.link{
+    font-size: 0.6em;
+    color: rgb(115, 115, 185);
+    
+}
+
+.link:hover{
+    color: rgb(108, 186, 206);
+    text-decoration: none;
+}
+
+.button{
+    width: 16vw;
+    height: 3vh;
+    border: 1px solid black;
+    color: rgb(226, 218, 218);
+    background-color:rgba(206, 178, 178, 0.363);
+    
+
+    
+}
+
+
+
+
+.inputs{
+width: 17vw;
+margin-bottom: 1vh;
+
+
+}
+
+.text{
+
+    font-size: 1em;
+}
