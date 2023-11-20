@@ -1,86 +1,112 @@
-.page{
+.page {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.76);
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('./img/1291249.png');
+    background-size: contain;
 }
 
 
-.wrapperForm{
-border: 1px solid black;
-background-color: rgb(51, 50, 50);
-width: 20vw;
-height: 35vh;
-display: flex;
-justify-content: center;
-align-content: center;
-color: rgb(199, 191, 191);
-
-}
-
-
-.container_wrapper{
-width: 15vw;
-height: 30vh;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-
+.wrapperForm {
+    border: 1px solid black;
+    background-color: rgb(51, 50, 50);
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(199, 191, 191);
 
 
 }
 
 
-.red_star{
+.container_wrapper {
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+
+
+
+
+
+}
+
+
+.red_star {
     color: red;
 }
 
-.titleForm{
+.titleForm {
     font-size: 1.2em;
     font-weight: 700;
-    
-}
 
 
-.textForm{
-font-size: 0.7em;
-font-weight: 700;
 
 }
 
-.link{
+
+.textForm {
+    font-size: 0.6em;
+    font-weight: 700;
+
+}
+
+.link {
     font-size: 0.6em;
     color: rgb(115, 115, 185);
-    
+
 }
 
-.link:hover{
+.link:hover {
     color: rgb(108, 186, 206);
     text-decoration: none;
+
 }
 
-.button{
-    width: 13vw;
-    height: 3vh;
-    border: 1px solid black;
+.button {
+    width: 26vw;
+    height: 5vh;
+    border: 1px solid rgba(94, 81, 216, 0.726);
     color: rgb(226, 218, 218);
-    background-color:rgba(206, 178, 178, 0.363);
-    margin-left: 2%;
-    
+    background-color: rgba(85, 66, 255, 0.534);
+    border-radius: 2px;
+
+
+
 }
 
 
-.button:hover{
+.button:hover {
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.068);
+    background-color: rgba(28, 126, 150, 0.849);
 }
 
-.inputs{
-width: 13vw;
-height: 3vh;
-margin-bottom: 1vh;
+.inputs {
+    width: 25vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-color: rgba(0, 0, 0, 0.418);
+    color: rgb(151, 155, 158);
 
 
 }
+
+.inputsCheck {
+
+    font-size: 0.5em;
+}
+
+
+
+/* 
+
+
+
+*/
