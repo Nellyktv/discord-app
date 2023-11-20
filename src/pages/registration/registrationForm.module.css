@@ -5,36 +5,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('./img/1291249.png');
+    background: url('../../../static/images/background.png');
     background-size: contain;
 }
 
 
-.wrapperForm {
-    border: 1px solid black;
-    background-color: rgb(51, 50, 50);
-    width: 35vw;
-    height: 65vh;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: rgb(199, 191, 191);
-
-
-}
-
-
 .container_wrapper {
-    width: 40vw;
-    height: 60vh;
+
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
-
-
-
-
-
+    justify-content: center;
+    background-color: rgb(63, 61, 61);
+    padding: 2% 2%;
+    color: rgb(199, 191, 191);
+    border: 1px solid black;
+    border-radius: 3%;
+    row-gap: 7px ;
+   
 }
 
 
@@ -45,28 +32,23 @@
 .titleForm {
     font-size: 1.2em;
     font-weight: 700;
-
-
-
+    text-align: center;
 }
 
 
 .textForm {
     font-size: 0.6em;
     font-weight: 700;
-
 }
 
 .link {
     font-size: 0.6em;
     color: rgb(115, 115, 185);
-
 }
 
 .link:hover {
     color: rgb(108, 186, 206);
     text-decoration: none;
-
 }
 
 .button {
@@ -76,9 +58,6 @@
     color: rgb(226, 218, 218);
     background-color: rgba(85, 66, 255, 0.534);
     border-radius: 2px;
-
-
-
 }
 
 
@@ -88,25 +67,8 @@
 }
 
 .inputs {
-    width: 25vw;
-    height: 5vh;
-    margin-bottom: 1vh;
-    background-color: rgba(0, 0, 0, 0.418);
-    border-color: rgba(0, 0, 0, 0.418);
-    color: rgb(151, 155, 158);
-
-
 }
 
 .inputsCheck {
-
     font-size: 0.5em;
 }
-
-
-
-/* 
-
-
-
-*/
