@@ -29,10 +29,10 @@ const AuthenticationForm = () => {
                         <p className={style.titleForm}>С возвращением!</p>
                         <p className={style.textWelcome}>Мы так рады видеть вас снова!</p>
 
-                        <TextField required variant="outlined" label="АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ ИЛИ НОМЕР ТЕЛЕФОНА" labelColor='white' ></TextField>
+                        <TextField required variant="outlined" label="АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ " labelColor='white' ></TextField>
                         <TextField required variant="outlined" label="ПАРОЛЬ" className={style.inputs}></TextField>
 
-                        <a href="#" className={style.link}>Забыли пароль?</a>
+                        <p className={style.registrationQuestion}>Нужна учетная запись? <a href="#" className={style.link} onClick={handleClick}>Зарегистрироваться</a></p>
                         <button className={style.button}>Продолжить</button>
                     </>
                 }
