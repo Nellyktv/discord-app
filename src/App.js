@@ -1,12 +1,11 @@
 import './App.css';
-import RegistrationForm from './pages/registration/RegistrationForm';
+import  AuthenticationForm from './pages/authentication/AuthenticationForm';
 
 
 function App() {
   return (
     <div className="App">
-      <RegistrationForm/>
-      {/* <AutorizationForm/> */}
+      <AuthenticationForm />
     </div>
   );
 }

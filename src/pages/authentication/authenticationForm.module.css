@@ -9,7 +9,6 @@
     background-size: contain;
 }
 
-
 .container_wrapper {
 
     display: flex;
@@ -20,10 +19,8 @@
     color: rgb(199, 191, 191);
     border: 1px solid black;
     border-radius: 3%;
-    row-gap: 7px ;
-   
+    row-gap: 7px;
 }
-
 
 .red_star {
     color: red;
@@ -34,7 +31,6 @@
     font-weight: 700;
     text-align: center;
 }
-
 
 .textForm {
     font-size: 0.6em;
@@ -60,15 +56,18 @@
     border-radius: 2px;
 }
 
-
 .button:hover {
     cursor: pointer;
     background-color: rgba(28, 126, 150, 0.849);
 }
 
-.inputs {
-}
-
 .inputsCheck {
     font-size: 0.5em;
+}
+
+.textWelcome {
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
 }
