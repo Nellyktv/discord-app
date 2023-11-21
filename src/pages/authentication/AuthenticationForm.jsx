@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import style from "./authenticationForm.module.css";
 import { TextField } from "@mui/material";
 import { Link } from "react-router-dom";
