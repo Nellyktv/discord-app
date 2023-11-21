@@ -3,10 +3,10 @@ import Header from './components/header/Header';
 import  AuthenticationForm from './pages/authentication/AuthenticationForm';
 
 
-function App(props) {
+function App() {
   return (
     <div className="App">
-      <Header img={props.img}/>
+      <Header/>
       {/* <AuthenticationForm /> */}
       
     </div>
