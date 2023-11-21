@@ -11,7 +11,7 @@ function App() {
     <div className='App'>
      <Header />
       <Routes>
-          <Route path='/register' element={<AuthenticationForm reg/>} />
+          <Route path='/register' element={<AuthenticationForm isRegistration/>} />
           <Route path='/login' element={<AuthenticationForm/>} /> 
      </Routes> 
     </div>

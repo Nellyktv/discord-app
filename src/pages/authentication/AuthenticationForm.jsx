@@ -3,9 +3,9 @@ import { TextField } from "@mui/material";
 import { Link } from "react-router-dom";
 
 
-const AuthenticationForm = (props) => {
+const AuthenticationForm = ({ isRegistration }) => {
 
-    const registration = props.reg
+
 
 
     // Cтиль плейсхолдера темная тема
@@ -24,10 +24,9 @@ const AuthenticationForm = (props) => {
     return (
 
         <div className={style.page}>
-
             <div className={style.container_wrapper}>
-                {registration ?
 
+                {isRegistration ?
                     <>
                         <p className={style.titleForm}>Создать учетную запись</p>
 
@@ -52,11 +51,8 @@ const AuthenticationForm = (props) => {
                     </>
                 }
             </div>
-
         </div>
-
     );
-
 }
 
 export default AuthenticationForm;
