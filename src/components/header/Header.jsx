@@ -3,10 +3,6 @@ import style from './header.module.css';
 import img from '../../static/images/discordLogo.png';
 
 
-
-
-
-
 const Header = () => {
 
     return (
@@ -16,7 +12,6 @@ const Header = () => {
             </div>
         </div>
     );
-
 }
 
 export default Header;

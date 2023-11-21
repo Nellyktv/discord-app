@@ -1,13 +1,18 @@
-.header{
+.header {
     width: 100%;
     height: 100%;
     background-color: rgb(86, 86, 206);
 }
 
-.header_menu{
+.header_menu {
     margin-left: 10%;
 }
 
-.header_logo{
+.header_logo {
     width: 4%;
+}
+
+.link {
+    color: antiquewhite;
+    text-decoration: none;
 }
